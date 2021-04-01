@@ -17,7 +17,7 @@ echo "executando, realizamos o comando -it"
 echo "Se quisermos apenas alocar o container, mas executa-lo em outro momento fazemos"
 docker run -it -d ubuntu; #Assim ele entra no modo detachado, que é como se fosse em stand by
 
-echo "Podemos então executa-lo depois com:";
+echo "Podemos então entrar dentro dele com o comando:";
 # docker exec -it ContainerName bash
 
 echo "Para parar qualquer container em execução, usamos o comando";
@@ -41,3 +41,7 @@ docker attach ContainerId
 
 echo "Você pode matar a sessão de um container que esteja rodando com o comando:"
 docker kill ContainerId
+
+echo "Nos podemos fazer operacoes diretas referenciando os containers, como limpa-los com o prune ou lista-los com ls"
+docker container prune
+docker contianer ls

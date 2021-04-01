@@ -1,0 +1,72 @@
+version : "3"
+# Cada container é um servico
+services:
+  nginx:
+    # quando nos construimos a partir de um build de dockerfile, precisamos usar o comando docker-compose build, antes do up
+    build:
+      dockerfile: ./docker/nginx.dockerfile
+      # Precisamos passar para ele o context também, o . é a partir da raiz
+      context: .
+    # Nome da imagem e do container
+    image: douglaslima/nginx
+    container_name: nginx
+    ports:
+      # toda vez que temos um '-' significa que estamos em um array de valores
+      - "80:80"
+    network: 
+      - production-network
+    depends_on:
+      - "node1"
+      - "node2"
+      - "node3"
+
+  mongodb:
+    image: mongo
+    network:
+      - production-network
+      
+  node1:
+    build:
+      dockerfile: .docker/alura-books.dockerfile
+      context: .
+    image: douglas/node1
+    container_name: node1
+    ports:
+      - "3000"
+    network:
+      - production-network
+    Essa flag faz ele entender que um outro container precisa estar up, antes dele ficar up
+    depends_on:
+      - "mongodb"
+
+  node2:
+    build:
+      dockerfile: .docker/alura-books.dockerfile
+      context: .
+    image: douglas/node2
+    container_name: node2
+    ports:
+      - "3000"
+    network:
+      - production-network
+    depends_on:
+      - "mongodb"
+
+  node3:
+    build:
+      dockerfile: .docker/alura-books.dockerfile
+      context: .
+    image: douglas/node3
+    container_name: node3
+    ports:
+      - "3000"
+    network:
+      - production-network
+    depends_on:
+      - "mongodb"
+  
+
+network:
+  # Primeira coisa que a gente faz é definir o nome na network
+  production-network:
+    driver: bridge

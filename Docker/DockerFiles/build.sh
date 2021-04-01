@@ -7,3 +7,7 @@ echo "Podemos inclusive na hora de buildar esse dockerfile, dar um nome e uma ta
 docker build -t myImage1:1.0 .
 
 # Você pode achar a documetnação melhor aqui: https://github.com/wsargent/docker-cheat-sheet#dockerfile
+
+#Caso você tenha dado um nome para o dockerfile, precisará usar a tag -f
+
+docker build -f node.dockerfile -t douglas/node .
