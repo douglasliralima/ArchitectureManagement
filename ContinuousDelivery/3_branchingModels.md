@@ -18,16 +18,14 @@
 <h3> Modelos </h3>
 <hr>
 
-<h4> trunck based Development </h4>
-* Para mais detalhes acessar a [referencia para nomenclatura de branchs mais frequentes](https://nvie.com/posts/a-successful-git-branching-model/)
+### [trunck based Development](https://trunkbaseddevelopment.com/)
 
-* O mais visualmente simples dos modelos, mas que demanda um time mais maduro, é o trunk based model, que se estabelece em uma única branch, mais detalhes podem ser encontrados [aqui](https://trunkbaseddevelopment.com/)
+* O mais visualmente simples dos modelos, mas que demanda um time mais maduro, é o trunk based model, que se estabelece em uma única branch.
 
 ![alt text](https://trunkbaseddevelopment.com/trunk1b.png "trunk based model")
 
-<h4 a = "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"> future branch workflow </h4>
+#### [future branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
-https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
 * Um exemplo é o future branch workflow, em que para cada nova funcionalidade, é criada uma branch, chamada feature, essa que então vai para a master
 
@@ -36,6 +34,9 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workf
 * Algo muito comum é fazer isso através de pull requests, esses que são muito usados para fazer uma analise de código e resolver problemas de compatibilidade.
 
 ![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/2_2_2_pul%2Brequest.png "pull requests")
+
+
+#### [gitlab flow](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
 * Nos temos um outro modelo chamado gitlab flow, nele nos temos tamém branchs de ambientes
 
