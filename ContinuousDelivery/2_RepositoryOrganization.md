@@ -2,6 +2,6 @@
 
 * Existem dois tipos principais de formas usadas para se organizar os projetos de uma empresa, para isso nos podemos fazer uso do **mono-repo** ou **multi-repo**.
 
-* <b>Mono-repo</b> - Empresas grandes de tecnologia como Google e Facebook não utilizam o esquema Multi-repo, porque são empresas que trabalham em inúmeros projetos de maneira concomitante. Logo usam um único e gigantesco repositório que acumula todos os projetos..
+* **Mono-repo** - Empresas grandes de tecnologia como Google e Facebook não utilizam o esquema Multi-repo, porque são empresas que trabalham em inúmeros projetos de maneira concomitante. Logo usam um único e gigantesco repositório que acumula todos os projetos..
 
 * **Multi-repo** - É o mais tipicamente usado, em que cada projeto possui um escopo separado e por sua vez seu próprio repositório
