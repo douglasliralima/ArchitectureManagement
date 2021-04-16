@@ -9,7 +9,7 @@
 
 * Existem algumas estratégias para podermos ajustar isso
 
-<h4> Feature Flag </h4>
+#### [Feature Flag](https://martinfowler.com/articles/feature-toggles.html)
 <hr>
 
 * Nos colocamos como que um botão em nossa aplicação, que desabilita certa funcionalidade quando o código vai para a produção
@@ -18,9 +18,7 @@
 
 ![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/1_HROSl2j8Ib7keDGF6_8PTQ.jpeg "feature flags")
 
-* [Mais detalhes sobre como implementar esse tipo de operação, basta clciar aqui](https://martinfowler.com/articles/feature-toggles.html) 
-
-<h4> Branch by Abstraction </h4>
+#### [Branch by Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
 <hr>
 
 * Essa é uma técnica para mudanças maiores a se ter no software, que permita você continuar lançando versões do projeto, enquanto as mudanças continuam em progresso.
@@ -45,6 +43,4 @@
 
 * Até que finalmente esteja tudo completo
 
-![alt text](https://martinfowler.com/bliki/images/branch-by-abstraction/step-5.png "Branch by Abstraction step 5")
-
-* [Fonte e mais detalhes](https://martinfowler.com/bliki/BranchByAbstraction.html) 
+![alt text](https://martinfowler.com/bliki/images/branch-by-abstraction/step-5.png "Branch by Abstraction step 5") 
