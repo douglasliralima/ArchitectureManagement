@@ -8,7 +8,7 @@
 
 * TDD pode ajudar, mas não é essencial, o que importa é o desempenho desses testes para assegurar a integração contínua
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/3_1_1_design.png "Tdd e integração contínua")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/3_1_1_design.png "Tdd e integração contínua")
 
 * Normalmente nos gostariamos dos nossos testes divido dessa forma:
 
@@ -28,4 +28,4 @@
 
 * O ideal é que esses testes venham sendo desenvolvidos com o tempo, para evitar esse tipo de comportamento
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/3_1_1_design.png "Test design")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/3_1_1_design.png "Test design")

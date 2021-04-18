@@ -2,7 +2,7 @@
 
 * O processo de build é dividido em várias etapas bem definidas
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/3_2_1_etapas.png "build steps")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/3_2_1_etapas.png "build steps")
 
 * Quando em integração continua, se vê a necessidade que essas sejam o mais automatizadas possível, de maneira a permitir o continuous integration
 
@@ -10,7 +10,7 @@
 
 * O ideal é que todas essas etapas aconteçam de forma mais simples possível e agnostica possível, como apertar um botão
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/3_2_2_book.png "integration button")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/3_2_2_book.png "integration button")
 
 * O tempo ideal de build de um projeto é de no máximo 10 minutos
 

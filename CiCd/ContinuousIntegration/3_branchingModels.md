@@ -29,19 +29,19 @@
 
 * Um exemplo é o future branch workflow, em que para cada nova funcionalidade, é criada uma branch, chamada feature, essa que então vai para a master
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/2_2_1_feeeature.png "future branch workflow")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/2_2_1_feeeature.png "future branch workflow")
 
 * Algo muito comum é fazer isso através de pull requests, esses que são muito usados para fazer uma analise de código e resolver problemas de compatibilidade.
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/2_2_2_pul%2Brequest.png "pull requests")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/2_2_2_pul%2Brequest.png "pull requests")
 
 
 #### [gitlab flow](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html)
 
 * Nos temos um outro modelo chamado gitlab flow, nele nos temos tamém branchs de ambientes
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/2_2_3_ramificacoes.png "gitlab flow")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/2_2_3_ramificacoes.png "gitlab flow")
 
 * Entretanto o modelo mais consolidade é o gitflow, esse que junta todas as boas práticas em um único modelo:
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/2_2_4_git.png "gitflow")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/2_2_4_git.png "gitflow")

@@ -16,7 +16,7 @@
 
 * O código vai continuar sendo parte da codebase, mas esse será produzido em baby steps em um ciclo de vida mais curto para cada pequena entrega
 
-![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/ContinuousDelivery/assets/1_HROSl2j8Ib7keDGF6_8PTQ.jpeg "feature flags")
+![alt text](https://raw.githubusercontent.com/douglasliralima/ArchitectureManagement/master/CiCd/assets/1_HROSl2j8Ib7keDGF6_8PTQ.jpeg "feature flags")
 
 #### [Branch by Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
 <hr>
