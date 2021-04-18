@@ -52,6 +52,8 @@
 
 * Em paralelo a homologação, podemos executar o "Capacity Testing Stage". Aqui vamos garantir que o software realmente suporta a quantidade de requisições, transações e acessos de usuários.
 
+* Os testes devem fazer parte do desenvolvimento do software e ser aplicados em ciclos. Aqui, é importante definir métricas claras e monitorar o sistema.
+
 * Graças aos seus custos eles acontecem em conjunto a homologação, pois assim não acontecem a cada commit.
 
 * Realizar isso é bastante complexo, temos todo um ferramental e técnicas diferentes focadas apenas nessa etapa
