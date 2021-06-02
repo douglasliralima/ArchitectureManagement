@@ -1,0 +1,13 @@
+FROM node:14
+
+WORKDIR /nodeApp/
+
+COPY ./nodeApp /nodeApp/
+
+ARG APPID
+
+RUN yarn install
+
+CMD yarn start
+
+EXPOSE 9999

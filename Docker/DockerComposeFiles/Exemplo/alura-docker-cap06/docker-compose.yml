@@ -35,7 +35,7 @@ services:
       - "3000"
     network:
       - production-network
-    Essa flag faz ele entender que um outro container precisa estar up, antes dele ficar up
+    # Essa flag faz ele entender que um outro container precisa estar up, antes dele ficar up
     depends_on:
       - "mongodb"
 

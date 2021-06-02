@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+    nginx:
+        image: nginx:latest
+        ports: 
+            - 8000:8080
+            - 8888:8888
+        volumes:
+            - ./nginx.conf:/etc/nginx/nginx.conf:ro
+            # Todas as configurações de um html com sites distintos estão aqui, inclusive com pastas que representam
+            # suas rotas
+            - ./html/:/etc/nginx/html/
+            - ./images/:/images/
+            - ./JavaScript/:/JavaScript
