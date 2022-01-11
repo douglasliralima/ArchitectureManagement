@@ -1,0 +1,5 @@
+echo "You can pass args at the building stage"
+docker build -f ./DockerFiles/ArgEnv.dockerfile -t test . --build-arg store=MadeiraMadeira
+
+echo "And if the dockerfile defined this arg as env, you can use it at running too"
+docker run test
